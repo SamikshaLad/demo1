@@ -9,7 +9,7 @@ st.sidebar.header("Description")
 st.sidebar.divider()
 st.sidebar.markdown("The Iris Dataset contains four features (length and width of sepals and petals) of 150 samples of three species of Iris(Iris setosa Iris virginica and Iris versicolor).")
 #st.sidebar.text("Just for reference, here are pictures of the three flowers species:")
-df=pd.read_csv(r"C:\Users\Admin\Desktop\Deployment_942\Data\iris.csv")
+df=pd.read_csv("iris.csv")
 #st.table(df)
 col1, col2 = st.columns(2)
 with col1:
